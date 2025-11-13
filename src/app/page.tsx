@@ -12,7 +12,7 @@ const Page = () => {
 
   const openModal = (id: number) => {
     const photo = photoList.find(item => item.id === id)
-    if(photo) {
+    if (photo) {
       setImageOfModal(photo.url)
       setShowModal(true);
     }
@@ -28,18 +28,18 @@ const Page = () => {
 
       <section className="container max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {photoList.map(item => (
-          <PhotoItem 
+          <PhotoItem
             key={item.id}
             photo={item}
-            onClick={() => {openModal(item.id)}}
+            onClick={() => { openModal(item.id) }}
           />
         ))}
       </section>
 
       {showModal &&
-        <Modal 
-        image={imageOfModal} 
-        closeModal={closeModal} 
+        <Modal
+          image={imageOfModal}
+          closeModal={closeModal}
         />
       }
     </div>
