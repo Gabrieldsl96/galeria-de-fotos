@@ -2,6 +2,8 @@
 
 Uma aplicação web moderna de galeria de fotos construída com Next.js, React e TypeScript. Este projeto exibe uma coleção de fotos intergaláticas em um layout responsivo com modal para visualização ampliada.
 
+🔗 **[Acesse o site aqui](https://galeria-de-fotos-one-theta.vercel.app/)**
+
 ## ✨ Funcionalidades
 
 - 📸 Galeria de fotos em grid responsivo
